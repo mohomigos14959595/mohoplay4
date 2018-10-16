@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d48009</color>
+    <color name="colorPrimaryDark">#83592b</color>
+    <color name="colorAccent">#f0860c</color>
+    <color name="songdelected">#f41a1a</color>
+    <color name="relativebackground">#5b3390dd</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_network"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sazgar.mohoplay.Fragments.NetworkActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="#655959" />
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#72e9d2d2"
+        android:fontFamily="casual" />
+
+
+    <Button
+        android:id="@+id/buttonsiteurl"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/texttitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="#72e9d2d2"
+        android:text="......visit site......" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="50dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:layout_height="50dp"
+
+        android:layout_alignTop="@+id/texttitle"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar" />
+</RelativeLayout>

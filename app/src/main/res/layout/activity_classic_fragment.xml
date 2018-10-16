@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_classic_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradual"
+    tools:context="com.example.sazgar.mohoplay.Fragments.ClassicFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="CLASSIC"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+
+    <ListView
+        android:id="@+id/listviewclassic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/c" />
+
+    <RelativeLayout
+        android:id="@+id/relativeclassic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/listviewclassic"
+        android:visibility="invisible"
+        android:background="#9b313131">
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textclassicselected"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/seekbar"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textviewpauseclassic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/textclassicselected"
+            android:background="@drawable/ic_pause_black_24dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textviewstartclassic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textclassicselected"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ic_play_arrow"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</RelativeLayout>

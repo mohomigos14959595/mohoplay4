@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sazgar.mohoplay">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".Fragments.RockFragment" /> -->
+        <!-- <activity android:name=".Fragments.ClassicFragment" /> -->
+        <!-- <activity android:name=".Fragments.HiphopFragment" /> -->
+        <!-- <activity android:name=".Fragments.PopFragment" /> -->
+        <!-- <activity android:name=".Fragments.PlaylistFragment" /> -->
+        <!-- <activity android:name=".RockSongs" /> -->
+        <activity android:name=".ClassicSong" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ClassicDetails" />
+        <activity android:name=".HiphopDetails" />
+        <!-- <activity android:name=".Fragments.Hiphopsong"></activity> -->
+        <activity android:name=".Fragments.RockSong" />
+        <activity android:name=".RockSong" />
+        <activity android:name=".Fragments.NetworkActivity" />
+        <activity android:name=".Fragments.HiphopSong" />
+        <activity android:name=".PlaylistFragment" />
+        <activity android:name=".Fragments.ExtraActivity"></activity>
+    </application>
+
+</manifest>

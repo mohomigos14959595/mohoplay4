@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_extra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sazgar.mohoplay.Fragments.ExtraActivity"
+    android:background="@drawable/backgroundgradual">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/fma"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagefma"/>
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonsitefma"
+        android:layout_below="@+id/imagefma"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/visit_fma"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imagefma"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text=" this is the sourse of our
+                   songs
+
+you can go there and enjoy listening to lots of awesome songs"/>
+
+
+</RelativeLayout>

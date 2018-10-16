@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backgroundchange"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/buttonshape">
+
+    <TextView
+        android:id="@+id/textviewnetwork"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_information"/>
+    <!--android:background="@drawable/ic_information" -->
+
+
+    <TextView
+        android:id="@+id/textviewsongname"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@+id/textviewnetwork"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textviewdatabase"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/textviewsongname"
+        android:background="@drawable/like"
+        />
+    <!--<SeekBar-->
+    <!--android:id="@+id/seekbarsong"-->
+    <!--android:layout_width="280dp"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:layout_below="@+id/textviewsongname"-->
+    <!--android:layout_toRightOf="@id/textviewnetwork"  />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textviewplay"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_toRightOf="@+id/textviewsongname"-->
+    <!--android:background="@drawable/ic_play_arrow"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/textviewstop"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_toRightOf="@+id/textviewsongname"-->
+    <!--android:background="@drawable/ic_pause_black_24dp"-->
+    <!--android:visibility="invisible"-->
+    <!--android:layout_marginTop="15dp" />-->
+
+
+</RelativeLayout>
